@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import Button from './Button'
+import Image from "next/image";
 
 const Section:React.FC = () => {
   return (
@@ -37,9 +38,10 @@ width='' height=''
    </div>
     </div>
 <div className='w-1/2 '>
-    <img 
+    <Image 
     className=' w-full'
-    src="twoWheel.png"/>
+    src="twoWheel.png"
+    alt=""/>
 </div>
 
     </div>

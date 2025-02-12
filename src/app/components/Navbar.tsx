@@ -1,8 +1,8 @@
 "use client";
 import React from 'react'
 import  Dropdown  from './Dropdown'
-import Button, { LogoButton } from './Button'
-
+import Button from './Button'
+import Image from "next/image";
 const Navbar: React.FC = () =>{
 
   const handleSelect = (dropdownName: string, option: string) => {
@@ -46,9 +46,9 @@ const Navbar: React.FC = () =>{
   <div  className=' absolute top-5 left-[70%] bg-white p-2 w-32 flex items-center justify-center'>
  <button className='font-inter font-bold text-sm text-center '>Sign In</button>
   </div>
-  <img
+  <Image
   className='w-full h-[600px]'
-  src="inklings.png"/>
+  src="inklings.png" alt=""/>
   
   </div>
 
@@ -80,7 +80,7 @@ className='text-[#1959AC]'
 {/* button */}
 </div>
 </div>
-{/* img */}
+{/* Image */}
 
 </div>
 

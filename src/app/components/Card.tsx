@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import Image from "next/image";
 
 interface CardProps{
     imageUrl:string;
@@ -25,7 +25,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, text }) => {
     <div>
 <div className='flex gap-1 w-1/2   items-center '>
    <div className='w-1/4  object-cover'>
-    <img
+    <Image
     className='w-36  h-36 object-cover ' 
     src={imageUrl} alt="card Image"/>
     </div>
@@ -45,7 +45,7 @@ export default Card
 
 export const SmallCard:React.FC<CardProps>=({imageUrl,width,height})=>{
 return(
-<img 
+<Image 
 className={`${width} ${height} `}
 src={imageUrl} alt="abc"/>
 )
@@ -56,13 +56,13 @@ export const CrosoulCard:React.FC<CrosoulCard>=({imageUrl,width,height,text,text
  
  <div className='w-screen'> 
  <div className='w-80  h-96 bg-white p-10 rounded-lg  transform transition-transform hover:scale-105'>
-    <img 
+    <Image 
   className={`${width} ${height} `}
   src={image} alt="abc"/>
 
 <p className='font-inter font-normal text-[18px] mt-5 '>{text}</p>
 <div className='flex gap-2 mt-5'>
-  <img  className={`${width}`}
+  <Image  className={`${width}`}
   src={imageUrl} alt="abc"/>
   <p className='font-inter font-normal text-[18px] '>{textsmall}</p>
 </div>

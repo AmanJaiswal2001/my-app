@@ -16,7 +16,7 @@ const SectionSnd:React.FC = () => {
    </div>
 <div className='mt-5'>
    <div className='flex gap-2'>
-    <img 
+    <Image 
     className='w-9 h-9'
     src="/Sure-Drive.png"/>
     <Documantation 
@@ -24,7 +24,7 @@ const SectionSnd:React.FC = () => {
     text="Lorem ipsum dolor sit amet consectetur. Mauris ullamcorper etiam leo eleifend condimentum in vitae faucibus. Amet massa malesuada sit pretium. Donec pharetra erat lacus suspendisse ornare."/>
    </div>
    <div className='flex gap-2'>
-    <img 
+    <Image 
     className='w-9 h-9'
     src="/Sure-Drive.png"/>
     <Documantation 
@@ -32,7 +32,7 @@ const SectionSnd:React.FC = () => {
     text="Lorem ipsum dolor sit amet consectetur. Mauris ullamcorper etiam leo eleifend condimentum in vitae faucibus. Amet massa malesuada sit pretium. Donec pharetra erat lacus suspendisse ornare."/>
    </div>
    <div className='flex gap-2'>
-    <img 
+    <Image 
     className='w-9 h-9'
     src="/Sure-Drive.png"/>
     <Documantation 
@@ -41,7 +41,7 @@ const SectionSnd:React.FC = () => {
    </div>
    </div>
    </div>
-   <img 
+   <Image 
    className='w-[600px] h-[500px]'
    src="supernova.png"/>
    </div>

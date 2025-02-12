@@ -1,13 +1,15 @@
 import React from 'react'
-
+import Image from "next/image";
 
 const Banner = () => {
   return (
     <div className='w-full h-screen relative'>
         <div className='w-full h-[652px]'>
-            <img 
+            <Image 
             className='w-full h-[652px]'
-            src="relaxat.png" alt="relaxat.png"/>
+            src="relaxat.png" alt="relaxat.png"
+           
+             />
         </div>
 
         <div className='absolute top-0 left-0'>
