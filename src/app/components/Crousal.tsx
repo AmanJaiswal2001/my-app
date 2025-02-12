@@ -66,8 +66,7 @@ Join other Sun harvesters
     </div>
 
 <div className='w-full h-[726px] '>
-<div className='flex w-full p-2
-0 justify-between '>
+<div className='flex w-full p-20 justify-between '>
   <div className='w-1/2 flex flex-col gap-5 pt-2'>
 <h1 className='font-roboto-condensed font-bold text-[42px]'>Lorem ipsum dolor sit amet </h1>
  
