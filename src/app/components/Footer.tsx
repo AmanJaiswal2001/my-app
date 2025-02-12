@@ -1,6 +1,6 @@
 import React from 'react'
 import { LogoButton } from './Button'
-import Hero from './Hero'
+
 
 const Footer = () => {
   return (
