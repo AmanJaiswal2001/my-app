@@ -47,7 +47,7 @@ export const SmallCard:React.FC<CardProps>=({imageUrl,width,height})=>{
 return(
 <img 
 className={`${width} ${height} `}
-src={imageUrl}/>
+src={imageUrl} alt="abc"/>
 )
 }
 
@@ -58,12 +58,12 @@ export const CrosoulCard:React.FC<CrosoulCard>=({imageUrl,width,height,text,text
  <div className='w-80  h-96 bg-white p-10 rounded-lg  transform transition-transform hover:scale-105'>
     <img 
   className={`${width} ${height} `}
-  src={image}/>
+  src={image} alt="abc"/>
 
 <p className='font-inter font-normal text-[18px] mt-5 '>{text}</p>
 <div className='flex gap-2 mt-5'>
   <img  className={`${width}`}
-  src={imageUrl}/>
+  src={imageUrl} alt="abc"/>
   <p className='font-inter font-normal text-[18px] '>{textsmall}</p>
 </div>
 </div>

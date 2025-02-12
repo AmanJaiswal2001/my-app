@@ -14,15 +14,18 @@ const Section:React.FC = () => {
    <Card
    imageUrl='bike.png'
    text="Lorem ipsum dolor sit amet consectetur. Vestibulum ornare fermentum feugiat."
-   />
+width='' height=''
+  />
     <Card
    imageUrl='marketing.png'
    text="Lorem ipsum dolor sit amet consectetur. Dictum at ac tellus faucibus urna ullamcorper id dui cursus. Venenatis."
-   />
+  width='' height=''
+  />
     <Card
    imageUrl='pro.png'
    text="Lorem ipsum dolor sit amet consectetur. Vestibulum nisl morbi metus gravida eu facilisi enim. Ut diam auctor tortor tincidunt."
-   />
+  width='' height=''
+  />
    </div>
 <div className='pt-5 flex items-center gap-2'>
    <Button text="Loerum Ipsum" width='w-44'/>
