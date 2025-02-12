@@ -31,7 +31,7 @@ const Dropdown: React.FC<DropdownProps> = ({  options, onSelect }) => {
       onClick={toggleDropdown}
       className="flex font-inter font-medium text-sm text-[#1959AC]"
     >
-      Lorem
+    {selected || "Select an option"}
       <ChevronDownIcon className="w-5 h-5 text-[#1959AC]" />
     </button>
 

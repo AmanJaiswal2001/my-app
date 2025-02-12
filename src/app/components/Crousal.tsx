@@ -32,23 +32,23 @@ Join other Sun harvesters
    <div  ref={carouselRef} 
      className='flex mt-20  gap-10 overflow-x-auto snap-x snap-mandatory'>
     <CrosoulCard 
-     image='Icon.png' imageUrl='User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
+     image='/Icon.png' imageUrl='/User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
       textsmall='Jane Cooper' width='w-8' height="w-8"/>
     <CrosoulCard 
-     image='Icon.png' imageUrl='User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
+     image='/Icon.png' imageUrl='/User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
       textsmall='Jane Cooper' width='w-8' height="w-8"/>
     <CrosoulCard 
-     image='Icon.png' imageUrl='User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
+     image='/Icon.png' imageUrl='/User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
       textsmall='Jane Cooper' width='w-8' height="w-8"/>
     <CrosoulCard 
-     image='Icon.png' imageUrl='User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
+     image='/Icon.png' imageUrl='/User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
       textsmall='Jane Cooper' width='w-8' height="w-8"/>
   
   <CrosoulCard 
-     image='Icon.png' imageUrl='User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
+     image='/Icon.png' imageUrl='/User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
       textsmall='Jane Cooper' width='w-8' height="w-8"/>
    <CrosoulCard 
-     image='Icon.png' imageUrl='User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
+     image='/Icon.png' imageUrl='/User.png' text='Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.'
       textsmall='Jane Cooper' width='w-8' height="w-8"/>
   
    </div>

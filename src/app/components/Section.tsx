@@ -13,19 +13,19 @@ const Section:React.FC = () => {
    <p className='w-[593px] h-20 font-inter font-normal text-sm'>Lorem ipsum dolor sit amet consectetur. Amet sodales sociis facilisis donec dui. Mi porttitor ut aliquam mattis maecenas eget integer in nam. Non nisl iaculis at felis aliquet. Hendrerit tellus at purus lectus.</p>
    <div className='flex flex-col gap-5 w-full justify-center  '>
    <Card
-   imageUrl='bike.png'
+   imageUrl='/bike.png'
    text="Lorem ipsum dolor sit amet consectetur. Vestibulum ornare fermentum feugiat."
-width='' height=''
+width='w-32' height='h-32'
   />
     <Card
-   imageUrl='marketing.png'
+   imageUrl='/marketing.png'
    text="Lorem ipsum dolor sit amet consectetur. Dictum at ac tellus faucibus urna ullamcorper id dui cursus. Venenatis."
-  width='' height=''
+  width='w-32' height='h-32'
   />
     <Card
-   imageUrl='pro.png'
+   imageUrl='/pro.png'
    text="Lorem ipsum dolor sit amet consectetur. Vestibulum nisl morbi metus gravida eu facilisi enim. Ut diam auctor tortor tincidunt."
-  width='' height=''
+ width='w-32' height='h-32'
   />
    </div>
 <div className='pt-5 flex items-center gap-2'>
@@ -40,8 +40,8 @@ width='' height=''
 <div className='w-1/2 '>
     <Image 
     className=' w-full'
-    src="twoWheel.png"
-    alt=""/>
+    src="/twoWheel.png"
+    alt=""  width={500} height={300}/>
 </div>
 
     </div>

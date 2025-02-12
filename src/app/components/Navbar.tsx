@@ -48,19 +48,20 @@ const Navbar: React.FC = () =>{
   </div>
   <Image
   className='w-full h-[600px]'
-  src="inklings.png" alt=""/>
+  src="/inklings.png" alt=""
+  width={500} height={300} />
   
   </div>
 
   
 </div>
-<div className='relative top-56'>
+<div className='relative top-56 left-10'>
 {/* content */}
-<h1 className='font-roboto-condensed w-[550px] bg-red-100 h-36 leading-[70px]  font-bold text-6xl'>Lorem ipsum dolor sit amet</h1>
+<h1 className='font-roboto-condensed w-[550px]  h-36 leading-[70px]  font-bold text-6xl'>Lorem ipsum dolor sit amet</h1>
 
 <p className='font-inter font-normal text-[14px] leading-6 w-[646px]'>Lorem ipsum dolor sit amet consectetur. Enim netus cras congue quis elit sociis. Sed mi rhoncus id habitant. In urna tellus nisi platea morbi libero imperdiet neque. Justo suspendisse tristique posuere quis eget viverra. Nunc euismod ultrices etiam nulla habitasse.</p>
 {/* search */}
-<div className='flex gap-2'>
+<div className='flex gap-2 mt-10'>
   <input type='text'
   className='w-80 border p-2 border-[#C3C3C3] outline-none rounded-md'/>
   <Button 
@@ -70,7 +71,7 @@ const Navbar: React.FC = () =>{
 
 {/* check box */}
 
-<div className='flex gap-2'>
+<div className='flex gap-2 mt-10'>
 <svg 
 className='text-[#1959AC]'
  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2m-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg><p className='font-inter font-medium text-sm'>No credit card required!</p>

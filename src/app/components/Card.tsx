@@ -20,14 +20,14 @@ interface CrosoulCard {
 }
 
 
-const Card: React.FC<CardProps> = ({ imageUrl, text }) => {
+const Card: React.FC<CardProps> = ({ imageUrl, text,width="w-auto" }) => {
   return (
     <div>
 <div className='flex gap-1 w-1/2   items-center '>
    <div className='w-1/4  object-cover'>
     <Image
     className='w-36  h-36 object-cover ' 
-    src={imageUrl} alt="card Image"/>
+    src={imageUrl} alt="card Image" width={500} height={300} />
     </div>
     <p className='font-inter w-2/3'>
         {text}
@@ -47,7 +47,7 @@ export const SmallCard:React.FC<CardProps>=({imageUrl,width,height})=>{
 return(
 <Image 
 className={`${width} ${height} `}
-src={imageUrl} alt="abc"/>
+src={imageUrl} alt="abc" width={500} height={300} />
 )
 }
 
@@ -58,12 +58,12 @@ export const CrosoulCard:React.FC<CrosoulCard>=({imageUrl,width,height,text,text
  <div className='w-80  h-96 bg-white p-10 rounded-lg  transform transition-transform hover:scale-105'>
     <Image 
   className={`${width} ${height} `}
-  src={image} alt="abc"/>
+  src={image} alt="abc" width={500} height={300} />
 
 <p className='font-inter font-normal text-[18px] mt-5 '>{text}</p>
 <div className='flex gap-2 mt-5'>
   <Image  className={`${width}`}
-  src={imageUrl} alt="abc"/>
+  src={imageUrl} alt="abc" width={500} height={300} />
   <p className='font-inter font-normal text-[18px] '>{textsmall}</p>
 </div>
 </div>

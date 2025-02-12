@@ -7,8 +7,8 @@ const Banner = () => {
         <div className='w-full h-[652px]'>
             <Image 
             className='w-full h-[652px]'
-            src="relaxat.png" alt="relaxat.png"
-           
+            src="/relaxat.png" alt="relaxat.png"
+            width={500} height={300} 
              />
         </div>
 

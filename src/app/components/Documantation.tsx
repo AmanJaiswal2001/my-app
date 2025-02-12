@@ -10,7 +10,7 @@ interface DocumantationProps{
 
 
 
-const Documantation: React.FC<DocumantationProps> = ({text,Heading,size,width="w-auto"}) => {
+const Documantation: React.FC<DocumantationProps> = ({text,Heading,size="auto",width="w-auto"}) => {
   return (
     <div>
         <h4 className={`font-inter font-semibold text-[20px]  text-center text-[#222222] ${size} ${width} `}>{Heading}</h4>
