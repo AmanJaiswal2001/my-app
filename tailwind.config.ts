@@ -22,7 +22,11 @@ export default {
   				'sans-serif'
   			],
         'roboto-condensed': ['"Roboto Condensed"', ...fontFamily.sans],
-  		},
+		roboto: [
+			'Roboto',
+			'sans-serif'
+		],	
+	},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

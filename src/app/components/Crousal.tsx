@@ -1,9 +1,11 @@
 'use client';
-import React from 'react'
+import React, { useState } from 'react'
 import { CrosoulCard } from './Card'
 import { useRef } from 'react';
 const Crousal:React.FC = () => {
  
+const[changeBg, setChangeBg]=useState("Research");
+
     const carouselRef = useRef<HTMLDivElement | null>(null);
     const handleLeftClick = () => {
         if (carouselRef.current) {
@@ -19,7 +21,8 @@ const Crousal:React.FC = () => {
  
  
     return (
-    <div className='w-full h-screen p-10 bg-[#155ADA]'>
+   <>
+   <div className='w-full h-screen p-20 bg-[#155ADA]'>
 <h3 className= 'font-inter font-medium text-2xl text-white'>
 Join other Sun harvesters   
 </h3>
@@ -61,6 +64,45 @@ Join other Sun harvesters
    onClick={handleRightClick}
    xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="m12.2 13l-.9.9q-.275.275-.275.7t.275.7t.7.275t.7-.275l2.6-2.6q.3-.3.3-.7t-.3-.7l-2.6-2.6q-.275-.275-.7-.275t-.7.275t-.275.7t.275.7l.9.9H9q-.425 0-.712.288T8 12t.288.713T9 13zm-.2 9q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"/></svg> </div>
     </div>
+
+<div className='w-full h-[726px] '>
+<div className='flex w-full p-2
+0 justify-between '>
+  <div className='w-1/2 flex flex-col gap-5 pt-2'>
+<h1 className='font-roboto-condensed font-bold text-[42px]'>Lorem ipsum dolor sit amet </h1>
+ 
+ <div className='w-fit rounded-lg '>
+  <button  onClick={()=>setChangeBg("Research")} className={` ${changeBg=="Research"?"bg-[#F1F5F9] w-52":"w-52"} h-12 border font-inter font-semibold text-[20px] leading-6 border-[#F1F5F9]`}>
+  Research
+  </button>
+  <button onClick={()=>setChangeBg("Plan")} className=  {`${changeBg=="Plan"?"bg-[#F1F5F9] w-52":""} w-52 h-12 border font-inter font-semibold text-[20px] leading-6 border-[#F1F5F9]`}>
+  Plan
+  </button>
+  <button onClick={()=>setChangeBg("Design")}
+  className=  {`${changeBg=="Design"?"bg-[#F1F5F9] w-52":"w-52"} h-12 border font-inter font-semibold text-[20px] leading-6 border-[#F1F5F9]`}>Design
+  </button>
+ </div>
+
+<p className='font-inter font-normal text-[18px] leading-6 text-[#475569]'>Egestas fringilla aliquam leo, habitasse arcu varius lorem elit. Neque pellentesque donec et tellus ac varius tortor, bibendum. Nulla felis ac turpis at amet. Purus malesuada placerat arcu at enim elit in accumsan.</p>
+<div className='text-[#1959AC] flex items-end gap-1'>
+  <button className='font-roboto font-medium text-sm leading-6'>Check tools </button>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m14 18l-1.4-1.45L16.15 13H4v-2h12.15L12.6 7.45L14 6l6 6z"/></svg>
+</div>
+
+  </div>
+  <div >
+    {/*img  */}
+    <img
+    className='  h-[406px]'
+    src="/hand.png"
+    width={500}
+    height={500}
+    />
+  </div>
+</div>
+
+</div>
+</>
   )
 }
 

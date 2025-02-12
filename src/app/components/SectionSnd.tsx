@@ -3,7 +3,8 @@ import Documantation from './Documantation'
 import Image from 'next/image'
 const SectionSnd:React.FC = () => {
   return (
-    <div className='w-full h-screen pt-10'>
+    <>
+    <div className='w-full h-[1019px] pt-10'>
 
 <p className='font-inter font-semibold text-2xl px-10 text-[#0546D2]'>Lorem ipsum dolor sit amet</p>
  <div className='flex justify-between'>
@@ -56,7 +57,11 @@ const SectionSnd:React.FC = () => {
    </div>
    <div className="relative min-h-screen w-full ">
   <div className="bg-custom-gradient w-[95%] h-5 absolute mt-10  right-0 m-auto" />
-</div>  </div>
+</div> 
+ </div>
+
+
+</>
   )
 }
 
