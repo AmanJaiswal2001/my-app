@@ -20,7 +20,7 @@ interface CrosoulCard {
 }
 
 
-const Card: React.FC<CardProps> = ({ imageUrl, text,width="w-auto" }) => {
+const Card: React.FC<CardProps> = ({ imageUrl, text, }) => {
   return (
     <div>
 <div className='flex gap-1 w-1/2   items-center '>
